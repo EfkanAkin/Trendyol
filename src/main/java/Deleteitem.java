@@ -17,11 +17,11 @@ public class Deleteitem {
     By control=By.cssSelector("div[class='pb-empty-basket']");
 
     public void silme() throws InterruptedException{
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         driver.findElement(silme).click();
         silmeList=driver.findElements(silmeOnay);
         silmeList.get(1).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
     public boolean control(){ return driver.findElement(control).isDisplayed();}
 

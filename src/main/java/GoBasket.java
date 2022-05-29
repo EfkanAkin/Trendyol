@@ -11,7 +11,7 @@ public class GoBasket extends BaseMethod {
     By sepetetıkla =By.cssSelector("i[class='i-bagg-orange hover-icon']");
     By control=By.cssSelector("i[class='i-plus-bold']");
     public  void sepetegit() throws InterruptedException{
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         click(sepetetıkla);
 
     }
